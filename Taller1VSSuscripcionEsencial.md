@@ -8,35 +8,35 @@ El siguiente procedimiento le guiará en el proceso de configuración de una sus
 
 1. Ingrese a my.visualstudio.com y autentíquese con su cuenta corporativa.
 
-![](RackMultipart20220510-1-vriq4i_html_acb019a7531050d7.png)
+![](Images/Picture1.png)
 
 1. Ubique la opción &quot;Activar&quot; cuenta gratuita de Azure
 
-![](RackMultipart20220510-1-vriq4i_html_9ab34f81000caf2f.png)
+![](Images/Picture2.png)
 
 1. Una vez se activa la característica, será redirigido a la autenticación del portal de azure.
 
-![](RackMultipart20220510-1-vriq4i_html_a0ccf83e121e69e0.png)
+![](Images/Picture3.png)
 
 1. Diligencie el último formulario
 
-![](RackMultipart20220510-1-vriq4i_html_d0b374fe0aeb72d8.png)
+![](Images/Picture4.png)
 
 1. Una vez la información del formulario ha sido diligenciada, tomará un momento para configurar su suscripción de Dev Essential como aparece a continuación.
 
-![](RackMultipart20220510-1-vriq4i_html_65a2d24e78b3bdc4.png)
+![](Images/Picture5.png)
 
 1. Una vez su cuenta a sido creada podrá ingresar al portal de azure. En este seleccione la opción &quot;Deploy a virtual machine&quot; la cual le permitirá crear una máquina nueva en modelo Infraestructura como Servicio.
 
-![](RackMultipart20220510-1-vriq4i_html_48c59805e43b201c.png)
+![](Images/Picture6.png)
 
 1. Dado en que la nube de Microsoft Azure es totalmente posible crear servidores de tipo Linux y Windows, deberá seleccionar el tipo de sistema operativo que desea, para nuestro caso seleccionaremos una máquina virtual de tipo Windows.
 
-![](RackMultipart20220510-1-vriq4i_html_371110e13d7127fd.png)
+![](Images/Picture7.png)
 
 1. A continuación, en el formulario, diligencie el nombre de la máquina. En la opción de región seleccione la opción &quot;free services elegible&quot; y seleccione una región donde exista disponibilidad para la creación de su máquina.
 
-![](RackMultipart20220510-1-vriq4i_html_1d95369c90d051de.png)
+![](Images/Picture8.png)
 
 1. Seleccione las siguientes opciones
   1. En el nombre de la máquina: &quot;sqlCourse&quot;
@@ -49,41 +49,41 @@ El siguiente procedimiento le guiará en el proceso de configuración de una sus
   8. Seleccione una contraseña segura.
   9. Habilite la opción &quot;Allow Selected ports&quot; (3389) para permitir acceso remoto al servidor.
 
-![](RackMultipart20220510-1-vriq4i_html_5d4152f9c9de80cf.png)
+![](Images/Picture9.png)
 
 1. Ahora configuraremos el tipo de disco.
   1. En el tipo de disco del sistema operativo seleccione: &quot;Premium SSD (locally-redundant storage)&quot;
   2. Seleccione el check &quot;Delete with VM&quot;, esto permitirá eliminar el disco en el momento que decida eliminar la máquina virtual.
   3. En la opción &quot;Encryption type&quot;: Seleccione la opción por defecto.
 
-![](RackMultipart20220510-1-vriq4i_html_577b1fb81259288d.png)
+![](Images/Picture10.png)
 
 1. A continuación tiene la página de resumen de la configuración seleccionada, validamos que todo esté acorde a lo señalado y oprimimos el botón &quot;Create&quot; para crear la máquina
 
-![](RackMultipart20220510-1-vriq4i_html_f529111a5a8e7f27.png)
+![](Images/Picture11.png)
 
 1. El proceso de aprovisionamiento de la máquina comienza, puede tardar entre 5 a 10 minutos.
 
-![](RackMultipart20220510-1-vriq4i_html_4c831c08ff7aecbc.png)
+![](Images/Picture12.png)
 
 1. Una vez terminado el proceso de aprovisionamiento se activará un botón &quot;Go to resource&quot;, el cual nos permitirá ir al panel de administración de la máquina virtual.
 
-![](RackMultipart20220510-1-vriq4i_html_1b81615612fd79b2.png)
+![](Images/Picture13.png)
 
 1. A continuación, en el panel de administración de la máquina, le damos clic en el botón &quot;Conectar&quot; y elegimos la opción &quot;RDP&quot; que es el modelo de conexión por defecto a las máquinas con sistema operativo Windows.
 
-![](RackMultipart20220510-1-vriq4i_html_61cae564ab4ee87e.png)
+![](Images/Picture14.png)
 
 1. Validamos que la dirección pública de la máquina coincida con la de la máquina y oprimimos el botón descargar archivo RDP.
 
-![](RackMultipart20220510-1-vriq4i_html_701251fadd8cc2ec.png)
+![](Images/Picture15.png)
 
 1. Una vez descargado el archivo RDP, damos clic en el archivo descargado.
 
-![](RackMultipart20220510-1-vriq4i_html_763b465d459b342.png)
+![](Images/Picture16.png)
 
 1. A continuación, al dar doble clic, introducimos el usuario y la contraseña digitados en el paso 9 de este manual, aceptamos la advertencia de acceso a la máquina y en este momento ya tenemos un servidor aprovisionado con Windows Server 2016 accesible desde cualquier lugar del mundo.
 
-![](RackMultipart20220510-1-vriq4i_html_8190b8d79f6d0d30.png)
+![](Images/Picture17.png)
 
 1. Cierre la maquina virtual y vuelva a la página de administración de la máquina. Oprima el botón &quot; **DETENER**&quot; para para el acceso a la máquina virtual, si no lo hace, es posible que consuma el saldo de su suscripción antes de lo deseado.
