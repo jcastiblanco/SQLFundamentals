@@ -6,3 +6,5 @@ El Taller 1: Explica como habilitar la suscripcion de developer essencial de Mic
 El Taller 2: Explica como crear una instancia de SQL Server sobre la máquina creada en el taller 1.
 
 El Taller 3: Explica como realizar copias de seguridad y restauraciones.
+
+Presentación: Contiene el pdf de la presentación realizada en el curso.
